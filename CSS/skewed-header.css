@@ -1,0 +1,51 @@
+/* RESERVE PAGE */
+
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(65%);
+}
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+.skewed-header > .skewed-header-wrapper > .header-content {
+    width: 25%;
+}
+.skewed-header > .skewed-header-wrapper > .header-content > .skewed-header-content {
+    width: 1000px;
+    background-color: white;
+    color: rgb(14, 14, 14, 0, 0);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 8px; 
+    width: 211px;
+}
+.skewed-header > .skewed-header-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 30%;
+}
+.skewed-header > .skewed-header-wrapper > .links-wrapper a {
+    color: white;
+}
+

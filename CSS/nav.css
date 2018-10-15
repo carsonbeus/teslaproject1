@@ -1,0 +1,112 @@
+body {
+    font-family: 'Share Tech', serif;
+    margin: 0px;
+}
+
+.navigation-wrapper {
+    height: 190px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.548);
+    /* below, this activates a flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    /* margin is what gets rid of the outer lining  */
+    margin: -10px;
+    border-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.left-column {
+    display: flex;
+    align-items: center;
+
+}
+.left-column > .contact-hours-wrapper {
+    /* below, this activates css grid */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 3fr;
+    grid-gap: 1px;
+}
+.left-column > .contact-hours-wrapper > .phone {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.navigation-wrapper > .left-column > .icon {
+    margin-right: 15px;
+}
+.navigation-wrapper > .left-column > .icon i {
+    font-size: 30px;
+}
+
+
+/* CENTER COLUMN */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.center-column > .links-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+
+}
+
+.navigation-wrapper > .center-column > .banner-image img {
+   width: 216px;
+   height: 100%;
+
+
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* add animation to the nav bar links */
+
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+}
+.right-column > .address-wrapper {
+    /* below, this activates css grid */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 3fr;
+    grid-gap: 1px;
+
+}
+.navigation-wrapper > .right-column > .icon {
+    margin-right: 15px;
+}
+.navigation-wrapper > .right-column > .icon i {
+    font-size: 30px;
+}

@@ -1,0 +1,54 @@
+/* footer styles */
+.footer {
+    background-color: rgba(255, 255, 255, 0.918);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    margin-top: 50px;
+}
+.footer > .logo-footer img {
+    width: 120px;
+    height: 100%;
+}
+.footer > .footer-phone-hours span {
+    letter-spacing: 2px;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.footer > .links-wrapper {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer > .social-media-icons-wrapper {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer > .social-media-icons-wrapper a{
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    transition: .1s;
+}
+
+.footer > .social-media-icons-wrapper a:hover{
+    background-color: transparent;
+    font-size: 1.7em;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+
+
